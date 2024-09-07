@@ -24,11 +24,7 @@ class OnBoardingWidgetBody extends StatelessWidget {
               Container(
                 height: 359.h,
                 width: 314.w,
-                decoration: const BoxDecoration(
-                    // image: DecorationImage(
-                    //     image: AssetImage(onBoardingData[index].imagePath),
-                    //     fit: BoxFit.cover),
-                    ),
+                decoration: const BoxDecoration(),
                 child: Image.asset(onBoardingData[index].imagePath),
               ),
               SizedBox(

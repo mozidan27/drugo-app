@@ -31,7 +31,7 @@ class LetsGoButton extends StatelessWidget {
             width: 120.w,
             height: 60.h,
             decoration: BoxDecoration(
-              borderRadius: const BorderRadius.all(Radius.circular(30)),
+              borderRadius: const BorderRadius.all(Radius.circular(70)),
               color: AppColors.primaryColor,
             ),
             child: Center(
