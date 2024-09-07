@@ -1,3 +1,4 @@
+import 'package:drugo/screens/about%20us%20screen/about_us.dart';
 import 'package:drugo/screens/home%20screen/screens/home_screen.dart';
 import 'package:drugo/screens/onboarding%20screen/screens/onboarding_screen.dart';
 import 'package:drugo/screens/onboarding%20screen/screens/welcome_onboarding_screen.dart';
@@ -8,5 +9,6 @@ Map<String, WidgetBuilder> buildAppRoutes() {
     '/onboardingscreen': (context) => const OnboardingScreen(),
     '/welcomeonboardingscreen': (context) => const WelcomeOnboardingScreen(),
     '/homescreen': (context) => const HomeScreen(),
+    '/aboutus': (context) => const AboutUs(),
   };
 }
